@@ -1,0 +1,29 @@
+{
+  "name": "water_sensor",
+  "version": "1.0.0",
+  "description": "this is a app linked to the water monitoring system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirbhay12345/water_sensor.git"
+  },
+  "author": "nirbhay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirbhay12345/water_sensor/issues"
+  },
+  "homepage": "https://github.com/nirbhay12345/water_sensor#readme",
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.12.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.19",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0"
+  }
+}
